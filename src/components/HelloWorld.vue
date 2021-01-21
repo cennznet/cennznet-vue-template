@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h1> Chain is at block: #{{ blockNum }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -38,6 +39,11 @@ export default {
   props: {
     msg: String
   },
+  data: function () {
+    return {
+      blockNum : 0
+    }
+  },
   methods: {
     async subscribe () {
       // Here we don't pass the (optional) provider, connecting directly to the default
@@ -53,6 +59,7 @@ export default {
       // used to unsubscribe from the newHead subscription
       const unsubscribe = await api.rpc.chain.subscribeNewHeads((header) => {
         console.log(`Chain is at block: #${header.number}`);
+        this.blockNum = header.number;
 
         if (++count === 256) {
           unsubscribe();
