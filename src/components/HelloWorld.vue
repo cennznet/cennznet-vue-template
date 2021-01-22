@@ -53,9 +53,9 @@ export default {
   },
   methods: {
     async subscribe () {
-      // Initialise the provider to connect to the local node
-      // To connect to Azalea, set provider to 'wss://cennznet.unfrastructure.io/public/ws';
-      const provider = 'ws://localhost:9944';
+      // Initialise the provider to connect to the CENNZnet main net
+      // To connect to a local node, set provider to 'ws://localhost:9944';
+      const provider = 'wss://cennznet.unfrastructure.io/public/ws';
 
       // Create the API and wait until ready
       const api = await Api.create({provider});

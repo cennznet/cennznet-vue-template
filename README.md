@@ -11,6 +11,23 @@ yarn install
 yarn serve
 ```
 
+## Connecting to a local CENNZnet node
+
+For development purposes, you may want to connect to a local blockchain network where you can play around without affecting the main net.
+To start a local chain, 
+* Install docker
+* Run this command
+```
+docker run -p 9944:9944 -it --rm  cennznet/cennznet:1.2.2 --dev --ws-external
+```
+
+* Connect to the local node in Javascript
+```
+  const provider = 'ws://localhost:9944';
+
+  // Create the API and wait until ready
+  const api = await Api.create({provider});
+```
 
 
 ### Compiles and minifies for production
@@ -23,25 +40,8 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
+### Customize Vue configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 
-## Testing on a local CENNZnet node
-
-Run a local chain by running this command
-```
-docker run -p 9944:9944 -it --rm  cennznet/cennznet:1.2.2 --dev --ws-external
-```
-
-Connect to the local node 
-```
-  const provider = 'ws://localhost:9944';
-
-  // Create the API and wait until ready
-  const api = await Api.create({provider});
-```
-
-Connect to the main net at
-wss://cennznet.unfrastructure.io/public/ws
