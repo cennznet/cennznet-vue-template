@@ -1,17 +1,28 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h1> Chain is at block: #{{ blockNum }}</h1>
+    <p>
+      Here's a simple Dapp for you to start hacking!
+    </p>
+    <p>
+      This project uses <a href="https://vuejs.org" target="_blank" rel="noopener">Vue.js</a> for the front-end, for simplicity and power. 
+    </p>
+    <p>
+      To be a Dapp, we connect to
+      <a href="https://github.com/cennznet/cennznet" target="_blank" rel="noopener">CENNZnet</a> 
+      using the 
+<a href="https://github.com/cennznet/api.js" target="_blank" rel="noopener">CENNZnet Javascript API</a>. 
+    </p>
+
+    <h1> Here it comes.. </h1>
+    
+    <h2> The blockchain is at block: #{{ blockNum }}</h2>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
+
     <h3>Essential Links</h3>
     <ul>
       <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
@@ -46,13 +57,15 @@ export default {
   },
   methods: {
     async subscribe () {
-      // Here we don't pass the (optional) provider, connecting directly to the default
-      // node/port, i.e. `ws://127.0.0.1:9944`. Await for the isReady promise to ensure
-      // the API has connected to the node and completed the initialisation process
-      const api = await Api.create();
+      // Initialise the provider to connect to the local node
+      // To connect to Azalea, set provider to 'wss://cennznet.unfrastructure.io/public/ws';
+      const provider = 'ws://localhost:9944';
 
-      // we only display a couple, then unsubscribe
-      let count = 0;
+      // Create the API and wait until ready
+      const api = await Api.create({provider});
+
+      // Subscribe to a number of updates, then unsubscribe
+      let numUpdates = 256;
 
       // Subscribe to the new headers on-chain. The callback is fired when new headers
       // are found, the call itself returns a promise with a subscription that can be
@@ -61,7 +74,7 @@ export default {
         console.log(`Chain is at block: #${header.number}`);
         this.blockNum = header.number;
 
-        if (++count === 256) {
+        if (--numUpdates < 0) {
           unsubscribe();
           process.exit(0);
         }

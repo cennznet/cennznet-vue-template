@@ -1,5 +1,8 @@
 # cennznet-vue-template
 
+This is a minimal app that shows how to connect to the CENNEZnet API in a VueJS project.
+
+
 ## Project setup
 ```
 yarn install
