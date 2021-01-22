@@ -7,6 +7,10 @@ This is a minimal VueJS project that demonstrates how to use the CENNZnet API.
 This project was generated using [Vue CLI](https://cli.vuejs.org/). 
 The logic that uses the CENNZnet API is in HelloWorld.vue, which is a [single file component] (https://vuejs.org/v2/guide/single-file-components.html).
 
+## Live demo
+
+A live demo hosted on Github Pages can be found [here](https://cennznet.js.org/cennznet-vue-template/)
+
 ## Project requirements
 
 [NodeJS](https://nodejs.org/en/)
