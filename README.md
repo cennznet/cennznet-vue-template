@@ -1,17 +1,17 @@
 # cennznet-vue-template
 
-This is a minimal app that shows how to connect to the CENNEZnet API in a VueJS project.
+This is a minimal VueJS project that demonstrates how to use the CENNEZnet API.
 
+This project was generated using [Vue CLI](https://cli.vuejs.org/). 
+The logic that uses the CENNEZnet API is in HelloWorld.vue, which is a [single file component] (https://vuejs.org/v2/guide/single-file-components.html).
 
-## Project setup
+## Running this project for development
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
 yarn serve
 ```
+
+
 
 ### Compiles and minifies for production
 ```

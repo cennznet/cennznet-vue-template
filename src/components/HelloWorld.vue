@@ -14,30 +14,26 @@
 <a href="https://github.com/cennznet/api.js" target="_blank" rel="noopener">CENNZnet Javascript API</a>. 
     </p>
 
-    <h1> Here it comes.. </h1>
+    <h1> OK, where's the blockchain? Here it comes.. </h1>
     
     <h2> The blockchain is at block: #{{ blockNum }}</h2>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
+
 
     <h3>Essential Links</h3>
     <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
+      <li><a href="https://github.com/cennznet/api.js/blob/develop/docs/GET_STARTED.md" target="_blank" rel="noopener">CENNZnet API Docs</a></li>
+      <li><a href="https://github.com/cennznet/cennznet" target="_blank" rel="noopener">Running a CENNZnet node</a></li>
+      <li><a href="https://cennz.net/" target="_blank" rel="noopener">CENNZnet official site</a></li>
+     </ul>
     <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
+      <li><a href="https://discord.gg/u3ct4CVE3B" target="_blank" rel="noopener">Join our Discord community</a></li>
+      <li><a href="https://twitter.com/CENNZnet" target="_blank" rel="noopener">Twitter</a></li>
+    </ul>
+
+    <h3>Related Guides</h3>
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing" target="_blank" rel="noopener">Async Javascript explained</a></li>
+      <li><a href="https://vuejs.org/v2/guide/" target="_blank" rel="noopener">Vue.js Official Guides</a></li>
     </ul>
   </div>
 </template>
