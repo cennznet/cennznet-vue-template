@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/dist
+# /dist ## We'll use this dir to create a subtree for a live demo hosted on github pages
 
 
 # local env files
