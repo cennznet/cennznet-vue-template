@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="CENNZnet logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to your demo Dapp!"/>
   </div>
 </template>
