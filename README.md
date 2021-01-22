@@ -1,5 +1,7 @@
 # CENNZnet Vue Template
 
+![CENNZnet logo](./src/assets/logo.png)
+
 This is a minimal VueJS project that demonstrates how to use the CENNZnet API.
 
 This project was generated using [Vue CLI](https://cli.vuejs.org/). 
@@ -34,6 +36,8 @@ docker run -p 9944:9944 -it --rm  cennznet/cennznet:1.2.2 --dev --ws-external
   const api = await Api.create({provider});
 ```
 
+### Customize Vue configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Compiles and minifies for production
 ```
@@ -45,8 +49,11 @@ yarn build
 yarn lint
 ```
 
-### Customize Vue configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Deployment to Github Pages
 
+Github pages is used for a live demo of this project.
 
+When ready for deployment, run the deploy_github_pages.sh script.
+Running this script will create a commit on a branch called gh-pages, which is a subtree of the main branch. It's used as the build output folder.
+Github Pages needs to be setup to show the gh-pages branch in the repository's Github settings.
 
