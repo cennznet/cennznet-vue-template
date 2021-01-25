@@ -48,7 +48,7 @@ export default {
   },
   data: function () {
     return {
-      blockNum : 0
+      blockNum : 'fetching..'
     }
   },
   methods: {
