@@ -11,6 +11,8 @@ The logic that uses the CENNZnet API is in HelloWorld.vue, which is a [single fi
 
 A live demo hosted on Github Pages can be found [here](https://cennznet.js.org/cennznet-vue-template/)
 
+Github Pages needs to be setup for to show the gh-pages branch. The setting is found in the Github repository's settings.
+
 ## Project requirements
 
 [NodeJS](https://nodejs.org/en/)
@@ -57,7 +59,7 @@ yarn lint
 
 Github pages is used for a live demo of this project.
 
-When ready for deployment, run the deploy_github_pages.sh script.
+To deploy, run the deploy_github_pages.sh script.
 Running this script will create a commit on a branch called gh-pages, which is a subtree of the main branch. It's used as the build output folder.
-Github Pages needs to be setup to show the gh-pages branch in the repository's Github settings.
+
 
