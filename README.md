@@ -9,14 +9,16 @@ The logic that uses the CENNZnet API is in HelloWorld.vue, which is a [single fi
 
 ## Live demo
 
-A live demo hosted on Github Pages can be found [here](https://cennznet.js.org/cennznet-vue-template/)
+A live demo hosted on Github Pages can be found [here](https://cennznet.js.org/cennznet-vue-template/).
 
+There's no CI set up, please manually run the deploy script to keep the live demo up to update.
 Github Pages needs to be setup for to show the gh-pages branch. The setting is found in the Github repository's settings.
 
 ## Project requirements
 
 [NodeJS](https://nodejs.org/en/)
 [Vue 2](https://vuejs.org/v2/guide/installation.html#NPM)
+[Yarn](https://classic.yarnpkg.com/en/)
 
 ## Running this project for development
 ```
