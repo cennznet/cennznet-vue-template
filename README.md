@@ -24,12 +24,11 @@ The code that uses the [CENNZnet API](https://github.com/cennznet/api.js) is in 
 ```
 git clone https://github.com/cennznet/cennznet-vue-template.git
 ```
-### Running the code for development
+### Run the code
 ```
 yarn install
 yarn serve
 ```
-
 
 ## Where to go from here
 
