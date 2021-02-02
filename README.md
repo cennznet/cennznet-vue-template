@@ -45,13 +45,22 @@ The [CENNZnet API](https://github.com/cennznet/api.js) is a JavaScript API that 
 ### CENNZnet technical documentation
 [CENNZnet specific modules](https://github.com/cennznet/api.js/tree/develop/docs/cennznet)
 
+## FAQ
+### Do I have to use Vue.js?
+No. The [CENNZnet API](https://github.com/cennznet/api.js) is a JavaScript API, so you are free to use another framework of your choice. We used Vue.js in this quick start project, because it's easier to learn and use.
+
+### What if I'm a React fan?
+We've built a powerful and open source GUI, [cennznet.io](https://cennznet.io/#/landing), in React. Check out the repo [here](https://github.com/cennznet/ui).
+
 ## Development notes
 
 ### Connecting to a local CENNZnet node (Optional)
 
 For development purposes, you may want to connect to a local blockchain network instead of the MainNet.
 
-#### Start a local chain
+For more information, check out the [CENNZnet repo](https://github.com/cennznet/cennznet).
+
+#### Start a local CENNZnet node
 * Install [docker](https://www.docker.com/get-started)
 * Run this command
 ```
