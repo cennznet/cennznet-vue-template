@@ -50,7 +50,7 @@ The [CENNZnet API](https://github.com/cennznet/api.js) is a JavaScript API that 
 No. The [CENNZnet API](https://github.com/cennznet/api.js) is a JavaScript API, so you are free to use another framework of your choice. We used Vue.js in this quick start project, because it's easier to learn and use.
 
 ### What if I'm a React fan?
-We've built a powerful and open source GUI, [cennznet.io](https://cennznet.io/#/landing), in React. Check out the repo [here](https://github.com/cennznet/ui).
+We've built a powerful and open source GUI for CENNZnet, [cennznet.io](https://cennznet.io/#/landing), with React. Check out the repo [here](https://github.com/cennznet/ui).
 
 ## Development notes
 
