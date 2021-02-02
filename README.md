@@ -3,9 +3,9 @@
 ![CENNZnet logo](./src/assets/logo.png)
 
 ## About this template
-This is a quick start template for you to get started with [CENNZnet](https://cennz.net/) in 5 minutes!
+This is a quick start template for you to start building with [CENNZnet](https://cennz.net/) in 5 minutes!
 
-This app simply shows the block number of the latest block on the CENNZnet MainNet(Alzalea) for a given number of updates, and then unsubscribe from the updates. It demonstrates how to connect to the CENNZnet MainNet, using the [CENNZnet API](https://github.com/cennznet/api.js). A live demo can be found [here](https://cennznet.js.org/cennznet-vue-template/).
+This app shows the last finalised block number on the CENNZnet MainNet(Alzalea). It demonstrates how to connect and disconnect to the CENNZnet MainNet using the [CENNZnet API](https://github.com/cennznet/api.js). A live demo can be found [here](https://cennznet.js.org/cennznet-vue-template/).
 
 It is built with [Vue.js](https://vuejs.org/), a popular frontend frameworks that is approachable yet powerful.
 

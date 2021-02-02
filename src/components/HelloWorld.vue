@@ -66,7 +66,7 @@ export default {
       // Subscribe to the new headers on-chain. The callback is fired when new headers
       // are found, the call itself returns a promise with a subscription that can be
       // used to unsubscribe from the newHead subscription
-      const unsubscribe = await api.rpc.chain.subscribeNewHeads((header) => {
+      const unsubscribe = await api.rpc.chain.subscribeFinalizedHeads((header) => {
         console.log(`Chain is at block: #${header.number}`);
         this.blockNum = header.number;
 
