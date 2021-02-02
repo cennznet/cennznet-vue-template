@@ -36,9 +36,10 @@ yarn serve
 [cennznet.io](https://cennznet.io/#/landing) is the GUI, where you can manage your account and interact with the chain.
 
 ### Explore the CENNZnet API
-The [CENNZnet API](https://github.com/cennznet/api.js) is a JavaScript API that allows you to view chain states through RPC calls, and to call methods of the runtime modules in CENNZnet.
+The [CENNZnet API](https://github.com/cennznet/api.js) is a JavaScript API that allows you to view chain states through RPC calls, and call methods of the runtime modules in CENNZnet.
 
 [Getting started with the API](https://github.com/cennznet/api.js/blob/develop/docs/GET_STARTED.md)
+
 [API example code](https://github.com/cennznet/api.js/tree/develop/docs/examples)
 
 ### CENNZnet technical documentation
