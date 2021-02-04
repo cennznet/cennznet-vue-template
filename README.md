@@ -33,11 +33,11 @@ yarn serve
 ## Where to go from here
 
 ### Explore the MainNet
-[cennznet.io](https://cennznet.io/#/landing) is the UI that lets you interact with CENNZnet. 
+[cennznet.io](https://cennznet.io/#/landing) is the UI that lets you interact with CENNZnet's networks. 
 
 In this UI, you can find useful tools for crypto investors, such as managing accounts and transferring funds.
 
-More importantly, this UI serves as a development tool for CENNZnet Dapp developers. It allows you to read data stored on the chain, and submit transactions to modify the data. It also lets you inspect recent blocks and events on the chain.
+More importantly, this UI serves as a development tool for CENNZnet Dapp developers. It allows you to read data stored on the chain, and submit transactions to modify the data. It also lets you inspect the recent blocks and events on the chain.
 
 ### Explore the CENNZnet API
 The [CENNZnet API](https://github.com/cennznet/api.js) is a JavaScript API that allows you to view chain states through RPC calls, and call methods of the runtime modules in CENNZnet.
