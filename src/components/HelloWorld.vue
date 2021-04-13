@@ -21,9 +21,10 @@
 
     <h3>Essential Links</h3>
     <ul>
-      <li><a href="https://github.com/cennznet/api.js/blob/develop/docs/GET_STARTED.md" target="_blank" rel="noopener">CENNZnet API Docs</a></li>
-      <li><a href="https://github.com/cennznet/cennznet" target="_blank" rel="noopener">Running a CENNZnet node</a></li>
+      <li><a href="https://wiki.cennz.net/#/" target="_blank" rel="noopener">CENNZnet Wiki</a></li>
       <li><a href="https://cennz.net/" target="_blank" rel="noopener">CENNZnet official site</a></li>
+      <li><a href="http://cennznet.io/" target="_blank" rel="noopener">CENNZnet Portal</a></li>
+      <li><a href="https://cennz.net/knowledge-hub/" target="_blank" rel="noopener">CENNZnet Knowledge hub</a></li>
      </ul>
     <ul>
       <li><a href="https://discord.gg/u3ct4CVE3B" target="_blank" rel="noopener">Join our Discord community</a></li>

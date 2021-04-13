@@ -32,6 +32,9 @@ yarn serve
 
 ## Where to go from here
 
+### CENNZnet Wiki
+Refer to the [CENNZnet wiki](https://wiki.cennz.net/) for technical documentations and guides. Check out the Getting started, DApp development, as well as the References sections.
+
 ### Explore the MainNet
 [cennznet.io](https://cennznet.io/#/landing) is the UI that lets you interact with CENNZnet's networks. 
 
@@ -42,13 +45,9 @@ More importantly, this UI serves as a development tool for CENNZnet Dapp develop
 ### Explore the CENNZnet API
 The [CENNZnet API](https://github.com/cennznet/api.js) is a JavaScript API that allows you to view chain states through RPC calls, and call methods of the runtime modules in CENNZnet.
 
-[API reference](https://github.com/cennznet/cennznet/wiki/Javascript-API-Reference)
+[API reference](https://wiki.cennz.net/#/References/CENNZnet-API/Getting-Started)
 
 [API example code](https://github.com/cennznet/api.js/tree/develop/docs/examples)
-
-### CENNZnet Wiki
-The [CENNZnet wiki](https://github.com/cennznet/cennznet/wiki) is where all CENNZnet technical docs are kept. Check out the Reference section for methods to read from and write to the blockchain.
-
 
 ## FAQ
 ### Do I have to use Vue.js?
