@@ -33,25 +33,21 @@ yarn serve
 ## Where to go from here
 
 ### CENNZnet Wiki
-Refer to the [CENNZnet wiki](https://wiki.cennz.net/) for technical documentations and guides. Check out the Getting started, DApp development, as well as the References sections.
+The [CENNZnet wiki](https://wiki.cennz.net/) provides technical documentations and guides. Read the [Technical Overview](http://localhost:3000/#/Getting-started/CENNZnet-technical-overview) if you haven't.
 
 ### Explore the MainNet
-[cennznet.io](https://cennznet.io/#/landing) is the UI that lets you interact with CENNZnet's networks. 
-
-In this UI, you can find useful tools for crypto investors, such as managing accounts and transferring funds.
-
-More importantly, this UI serves as a development tool for CENNZnet Dapp developers. It allows you to read data stored on the chain, and submit transactions to modify the data. It also lets you inspect the recent blocks and events on the chain.
+[cennznet.io](https://cennznet.io/#/landing) is the UI that lets you interact with CENNZnet's networks. This UI provides account management tools for crypto investors and dev tools for DApp Developers. It allows you to read data stored on the chain, and submit transactions to modify the data. It also lets you inspect the recent blocks and events on the chain.
+Read the guides [here](https://wiki.cennz.net/#/References/CENNZnet-infrastructures/Exploring-the-CENNZnet-UI) to get familiar with CENNZnet.io.
 
 ### Explore the CENNZnet API
 The [CENNZnet API](https://github.com/cennznet/api.js) is a JavaScript API that allows you to view chain states through RPC calls, and call methods of the runtime modules in CENNZnet.
 
-[API reference](https://wiki.cennz.net/#/References/CENNZnet-API/Getting-Started)
+Check out the [Getting started with the CENNZnet API guide](https://wiki.cennz.net/#/Dapp-development/Guides/Getting-started-with-the-CENNZnet-API) to learn about it!
 
-[API example code](https://github.com/cennznet/api.js/tree/develop/docs/examples)
 
 ## FAQ
 ### Do I have to use Vue.js?
-No. The [CENNZnet API](https://github.com/cennznet/api.js) is a JavaScript API, so you are free to use another framework of your choice. We used Vue.js in this quick start project, because it's easier to learn and use.
+No. The [CENNZnet API](https://github.com/cennznet/api.js) is a JavaScript API, so you are free to use another framework of your choice. We used Vue.js in this quick start project, because it's easy to learn and use.
 
 ### What if I'm a React fan?
 We've built a powerful and open source GUI for CENNZnet, [cennznet.io](https://cennznet.io/#/landing), with React. Check out the repo [here](https://github.com/cennznet/ui).
@@ -68,7 +64,7 @@ For more information, check out the [CENNZnet repo](https://github.com/cennznet/
 * Install [docker](https://www.docker.com/get-started)
 * Run this command
 ```
-docker run -p 9944:9944 -it --rm  cennznet/cennznet:1.2.2 --dev --ws-external
+docker run -p 9944:9944 cennznet/cennznet:1.4.0 --dev --ws-external
 ```
 
 #### Connect to the local node in Javascript
